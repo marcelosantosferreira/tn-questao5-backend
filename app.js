@@ -12,6 +12,11 @@ const veiculoRouter = require('./routes/veiculoRouter')(Veiculo);
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
+app.use((request, response, next) => {
+  response.header('Access-Control-Allow-Origin', '*');
+  next();
+});
+
 app.use('/', veiculoRouter);
 
 app.get('/', (request, response) => {

@@ -6,8 +6,8 @@ function routes(Veiculo){
     veiculoRouter.route('/veiculos')
         .get((request, response) => {
             const query = {};
-            if (request.query.jaconhece) {
-                query.jaconhece = request.query.jaconhece;
+            if (request.query.vendido) {
+                query.vendido = request.query.vendido;
             }
 
             Veiculo.find(query, (error, veiculos) => {
