@@ -20,4 +20,4 @@ Caso queira testar o front-end vá para o repositório [questao5-frontend](https
 
 ## Execução dos unit tests
 
-Utilize `XXX`.
+Utilize `npm test`.

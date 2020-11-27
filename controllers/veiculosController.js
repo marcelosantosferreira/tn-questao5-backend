@@ -16,8 +16,14 @@ function veiculosController(Veiculo){
 
     function post (request, response){
         const veiculo = new Veiculo(request.body);
+        //TODO: incrementar validações
+        if (!request.body.veiculo) {
+            response.status(400);
+            return response.send('Veiculo precisa ser preenchido');
+        }
         veiculo.save();
-        return response.status(201).json(veiculo);
+        response.status(201);
+        return response.json(veiculo);
     }
 
     function put (request, response) {
