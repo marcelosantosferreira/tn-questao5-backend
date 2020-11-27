@@ -1,11 +1,10 @@
 # Backend para questão 5
+Construído com Node.js + Express + MongoDB.
 
 Atendendo parte dos requisitos, a saber:
 - todos os verbos funcionando GET, POST, PUT, PATCH, DELETE (testados com o postman também)
 - API endpoints foram implementados (com exceção de GET /veiculos/find)
 - testes unitários (apenas para POST)
-
-Construído com Node.js + Express + MongoDB
 
 ## Screenshot
 ![alt text](screenshot.jpg "Backend para questão 5")
