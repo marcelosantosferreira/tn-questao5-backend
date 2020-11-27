@@ -1,0 +1,47 @@
+[
+    {
+        "veiculo": "Sandero",
+        "marca":  "Renault",
+        "ano":  "2010",
+        "descricao":  "1.6 16V completo",
+        "vendido":  false,
+        "created": "2009-07-01 08:00:00",
+        "updated": "2009-07-11 09:03:00"
+    },
+    {
+        "veiculo": "Clio",
+        "marca":  "Renault",
+        "ano":  "2012",
+        "descricao":  "1.0 16V básico",
+        "vendido":  true,
+        "created": "2009-09-12 11:10:00",
+        "updated": "2009-10-19 18:07:00"
+    },
+    {
+        "veiculo": "Wolkswagen",
+        "marca":  "Spacefox",
+        "ano":  "2014",
+        "descricao":  "1.0 8V",
+        "vendido":  false,
+        "created": "2014-01-03 12:01:00",
+        "updated": "2015-08-01 14:07:00"    
+    },
+    {
+        "veiculo": "Fiat",
+        "marca":  "Palio",
+        "ano":  "2009",
+        "descricao":  "1.0 básico",
+        "vendido":  true,
+        "created": "2008-11-03 09:01:00",
+        "updated": "2008-11-11 11:07:00"    
+    },
+    {
+        "veiculo": "Fiat",
+        "marca":  "147",
+        "ano":  "1960",
+        "descricao":  "básico",
+        "vendido":  false,
+        "created": "2007-01-10 09:01:00",
+        "updated": "2008-02-11 11:07:00"    
+    }
+]
